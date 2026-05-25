@@ -1,0 +1,26 @@
+schema_version: "1.2"
+change_name: add-csv-export
+description: Add CSV export endpoint with streaming, validation, and security
+branch: openspec-work
+status: ready_for_review
+
+artifacts:
+  proposal:
+    path: PROPOSAL.md
+    status: done
+  design:
+    path: DESIGN.md
+    status: done
+  specs:
+    path: SPECS.md
+    status: done
+  tasks:
+    path: TASKS.md
+    status: done
+
+implementation:
+  code_branch: openspec-work
+  test_status: all_passing
+  test_count: 5
+  test_time_ms: 880
+  version_bump: "0.1.0 -> 0.2.0"
